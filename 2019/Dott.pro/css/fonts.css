@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'open-iconic';
+    src: url('../fonts/open-iconic/open-iconic.woff'),
+    url('../fonts/open-iconic/open-iconic.woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon/icomoon.woff'),
+    url('../fonts/icomoon/icomoon.woff');
+        font-weight: normal;
+        font-style: normal;
+}

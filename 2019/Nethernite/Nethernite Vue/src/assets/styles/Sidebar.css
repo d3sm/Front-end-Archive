@@ -1,0 +1,308 @@
+.sidebar-news{
+  background-size: cover;
+  width: 440px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 42px;
+  cursor: pointer;
+
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.sidebar-news img{
+  width: 100%;
+  height: auto;
+}
+.sidebar-news__content{
+  position: absolute;
+  top: 150px;
+  bottom: 0px;
+  height: auto;
+  background: rgba(50, 49, 69, 0.8);
+  padding-left: 26px;
+  padding-right: 26px;
+}
+.sidebar-news__content--title{
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.72px;
+}
+.sidebar-news__content--text{
+  margin-top: 10px;
+  padding-bottom: 10px; 
+  color: #9d9acc;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+}
+
+
+
+@media (max-width: 1475px){
+  .sidebar-news{ width: 400px; }
+  .sidebar-news{ width: 400px; }
+  .sidebar-news__content{
+    top: 135px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .sidebar-news__content--title{
+    margin-top: 16px;
+    font-size: 15px;
+  }
+  .sidebar-news__content--text{
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1391px){
+  .sidebar-news{  width: 380px; margin-bottom: 35px}
+  .sidebar-news__content{
+    top: 125px;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+  .sidebar-news__content--title{
+    margin-top: 12px;
+    font-size: 15px;
+  }
+  .sidebar-news__content--text{  font-size: 12px;  }
+}
+
+@media (max-width: 1216px){
+  .sidebar-news{  width: 350px; margin-bottom: 25px; }
+  .sidebar-news__content{
+    top: 115px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .sidebar-news__content--title{
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .sidebar-news__content--text{  font-size: 11px; margin-top: 8px; }
+}
+
+@media (max-width: 1171px){
+  .sidebar-news{  width: 330px; margin-bottom: 20px; }
+  .sidebar-news__content{
+    top: 110px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .sidebar-news__content--title{
+    font-size: 12px;
+  }
+  .sidebar-news__content--text{  font-size: 10px;}
+}
+
+@media (max-width: 1075px){
+  .sidebar-news{  width: 300px; margin-bottom: 15px; }
+  .sidebar-news__content{
+    top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 977px){
+  .sidebar-news{
+    margin-right: 5px; 
+    margin-left: 5px;
+  }
+  .sidebar-news__wrapper{
+    margin-right: auto; 
+    margin-left: auto;
+  }
+  .sidebar-news{  width: 255px; margin-bottom: 14px; }
+  .sidebar-news__content{
+    top: 85px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .sidebar-news__content--title{ font-size: 11px; }
+  .sidebar-news__content--text{  font-size: 9px; margin-top: 5px; }
+}
+
+@media (max-width: 854px){
+  .sidebar-news{  width: 330px; margin-bottom: 20px; }
+  .sidebar-news__content{
+    top: 110px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .sidebar-news__content--title{
+    font-size: 13px;
+  }
+  .sidebar-news__content--text{  font-size: 11px; }
+}
+
+@media (max-width: 758px){
+  .sidebar-news{
+    margin-right: 5px; 
+    margin-left: 5px;
+  }
+  .sidebar-news__wrapper{
+    margin-right: auto; 
+    margin-left: auto;
+  }
+  .sidebar-news{  width: 282px; margin-bottom: 14px; }
+  .sidebar-news__content{
+    top: 95px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .sidebar-news__content--title{ font-size: 11px; }
+  .sidebar-news__content--text{  font-size: 9px; margin-top: 5px; }
+}
+
+@media (max-width: 656px){
+  .sidebar-news{
+    margin-right: 5px; 
+    margin-left: 5px;
+  }
+  .sidebar-news__wrapper{
+    margin-right: auto; 
+    margin-left: auto;
+  }
+  .sidebar-news{  width: 235px; margin-bottom: 14px; }
+  .sidebar-news__content{
+    top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .sidebar-news__content--title{ font-size: 11px;margin-top: 7px; }
+  .sidebar-news__content--text{  font-size: 8px; margin-top: 4px; }
+}
+
+@media (max-width: 560px){
+  .sidebar-news{  width: 330px; margin-bottom: 20px; }
+  .sidebar-news__content{
+    top: 110px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .sidebar-news__content--title{
+    font-size: 13px;
+  }
+  .sidebar-news__content--text{  font-size: 11px; }
+}
+
+@media (max-width: 463px){
+  .sidebar-news{  width: 290px; margin-bottom: 20px; }
+  .sidebar-news__content{
+    top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .sidebar-news__content--title{
+    font-size: 13px;
+  }
+  .sidebar-news__content--text{  font-size: 11px; }
+}
+
+@media (max-width: 360px){
+  .sidebar-news{  width: 260px; margin-bottom: 20px; }
+}
+
+
+.sidebar-title{
+  margin-bottom: 37px;
+}
+
+.sidebar-title p{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.72px;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+
+@media (max-width: 1475px){
+  .sidebar-list{  margin-right: 30px;  }
+}
+
+@media (max-width: 1391px){
+  .sidebar-list{  margin-right: 40px;  }
+}
+
+@media (max-width: 1217px){
+  .sidebar-list{  margin-right: 30px;  }
+}
+
+@media (max-width: 1171px){
+  .sidebar-list{  margin-right: 40px; }
+}
+
+@media (max-width: 1075px){
+  .sidebar-list{  margin-right: 30px; }
+}
+
+@media (max-width: 977px){
+  .sidebar-list{
+      max-width: 800px;
+      width: auto;
+  }
+  
+  .sidebar-title{
+     width: 800px;
+     margin-right: auto; 
+     margin-left: auto;
+     margin-top: 17px;
+     margin-bottom: 30px;
+  }
+  .sidebar-list{  
+      margin-right: auto; 
+      margin-left: auto;
+      width: 800px;
+  }
+  .sidebar-list__container{
+      display: flex;
+      flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 854px){
+  .sidebar-list{  max-width: 700px; }
+  .sidebar-title{  width: 700px;  }
+}
+
+@media (max-width: 758px){
+  .sidebar-list{  max-width: 600px; }
+  .sidebar-title{  width: 600px;  }
+}
+
+@media (max-width: 656px){
+  
+  .sidebar-list{  max-width: 500px; }
+  .sidebar-title{  
+      width: 500px;  
+      margin-top: 0px;
+      margin-bottom: 25px;
+  }
+  .sidebar-title p{   font-size: 16px;  }
+}
+
+@media (max-width: 560px){
+  .sidebar-list{  max-width: 400px; }
+  .sidebar-title{  width: 400px;  }
+  .sidebar-title p{   font-size: 15px;  }
+}
+
+@media (max-width: 463px){
+  .sidebar-list{  max-width: 300px; }
+  .sidebar-title{  width: 300px; text-align: center  }
+  .sidebar-title p{   font-size: 14px;  }
+}
+
+@media (max-width: 360px){
+  .sidebar-list{  max-width: 270px; }
+  .sidebar-title{  width: 270px;  }
+}

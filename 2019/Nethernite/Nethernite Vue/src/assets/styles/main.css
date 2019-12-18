@@ -1,0 +1,118 @@
+@import url("fonts.css");
+
+* {  
+    margin: 0;
+    padding: 0; 
+    outline: 0 !important;
+}
+
+body{
+    font-family: "geomanist", Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    background: url(../images/background.png) #323145;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+html { height: 100% }
+
+  .main{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main-wrapper{
+    display: flex;
+    margin-top: 37px;
+    position: relative;
+    padding: 0 30px;
+}
+
+.sidebar{
+    position: absolute;
+    right: 0px;  
+}
+
+.sidebar-title{
+    margin-bottom: 37px;
+}
+
+.news-back{
+    display: flex;
+    margin-bottom: 37px;
+    cursor: pointer;
+}
+
+.news-back__icon{
+    margin-right: 20px;
+    margin-top: 5px;
+    width: 8px;
+    height: 12px;
+}
+
+.news-back__caption{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.72px;
+    position: relative;
+}
+
+
+@media (max-width: 1475px){
+    .news{ left: 30px; }
+}
+
+@media (max-width: 1391px){
+    .news-back__caption{ font-size: 17px; }
+    .sidebar-title p{ font-size: 17px; }
+}
+
+@media (max-width: 1217px){
+    .news-back__caption{ font-size: 16px; }
+    .sidebar-title p{ font-size: 16px; }
+}
+
+@media (max-width: 1171px){
+    .news-back__caption{ font-size: 15px; }
+    .sidebar-title p{  font-size: 15px; }
+    .news-back__icon{ margin-top: 4px; }
+}
+
+@media (max-width: 977px){
+    .news-back{margin-bottom: 30px;}
+    .main-wrapper{
+        display: block;
+        position: relative;
+        margin-top: 30px;
+    }
+    .news-back__icon{ margin-top: 6px; }
+    .sidebar{
+        left: 0px;
+        right: 0px;   
+    }
+    .main{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 0px;
+        position: absolute;
+    }
+    .news{
+        margin: 0 auto;
+        display: table;
+    }
+    .news-back__caption{ font-size: 18px; }
+}
+
+@media (max-width: 656px){
+    .news-back__caption{ font-size: 16px;}
+    .news-back{margin-bottom: 25px;}
+    .main-wrapper{  margin-top: 25px;   }
+}
+
+@media (max-width: 560px){
+    .news-back__caption{ font-size: 15px;}
+}

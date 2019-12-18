@@ -1,0 +1,384 @@
+.header{
+    background: #242334;
+  }
+  .header-main{
+    height: 72px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    z-index: 99;
+  }
+  .header__nav{
+    margin: 15px auto; }
+  .nav__list{
+    display: flex; }
+  .nav__item{
+    height: 57px;
+    list-style-type: none;
+    padding: 0px 34px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .nav__selected{
+    height: 55px;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(43, 42, 60,1));
+    border-left: none;   border-top: none;  border-right: none;
+    border-bottom: 2px solid;
+    border-radius: 1px;
+    border-image: linear-gradient(to right, #d94fc7 0%, #ff905a 100%) 47% 0%;
+  }
+  .nav__item:hover{
+    height: 55px;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(43, 42, 60,1));
+    border-left: none;   border-top: none;  border-right: none;
+    border-bottom: 2px solid;
+    border-radius: 1px;
+    border-image: linear-gradient(to right, #d94fc7 0%, #ff905a 100%) 47% 0%;
+  }
+  .nav__item-button:hover {
+    content: none;
+    border: none;
+    background-image:none;
+  }
+
+  .nav__link{
+    line-height: 3em;  
+  }
+  .nav__button{
+    width: 106px;
+    height: 42px;
+    color: #ffffff;
+    box-shadow: 0 15px 11px rgba(9, 10, 15, 0.15);
+    border-radius: 21px;
+    border: 2px solid #212236;
+    background-color: #6f6d99;
+    background-image: linear-gradient(to right, #242333 0%, #3c3b53 100%);
+    box-shadow: 0 0 0 2px #9895c6, 0 0 0 2px #9895c6;
+    cursor: pointer;
+  }
+  .nav__button:hover{
+    background-image: linear-gradient(to right, #242333 0%, #9896bb 100%);
+  }
+  
+  .user-section{
+    position: absolute;
+    right: 20px;
+    display: flex;
+    z-index: 99;
+  }
+  
+  .user-section__icons{
+    display: flex;
+    margin-top: 28px; 
+  }
+  .user-section__icons-trophy{
+    margin-right: 28px;
+    position: relative;
+    cursor: pointer;
+  }
+  .active-icons-trophy::after{
+    position: absolute;
+    display: block;
+    content: "";
+    border-radius: 50%; 
+    background: linear-gradient(45deg, #d94fc7 0%, #6d30c8 100%);
+    width: 8px;
+    height: 8px;
+    top: -3px;
+    left: 15px;
+    box-shadow:0 0 20px #6d30c8;
+  }
+  .active-icons-trophy::before{
+    position: absolute;
+    display: block;
+    content: "";
+    border-radius: 50%; 
+    width: 16px;
+    height: 16px;
+    top: -7px;
+    left: 11px;
+    background: #242334;
+  }
+
+  .icons-trophy{
+    width: 22px;
+    height: 25px;
+  }
+  
+  .icons-notification{
+    width: 16px;
+    height: 18px;
+  }
+  .user-section__icons-notification{
+    margin-right: 30px;
+    position: relative;
+    cursor: pointer;
+  }
+ .active-icons-notification::after{
+    position: absolute;
+    display: block;
+    content: "";
+    border-radius: 50%; 
+    background: linear-gradient(45deg, #57b9c9 0%, #3deb6e 100%);
+    width: 8px;
+    height: 8px;
+    top: -3px;
+    left: 12px;
+    box-shadow:0 0 15px #3deb6e;
+  }
+  .active-icons-notification::before{
+    position: absolute;
+    display: block;
+    content: "";
+    border-radius: 50%; 
+    width: 16px;
+    height: 16px;
+    top: -7px;
+    left: 8px;
+    background: #242334;
+  }
+
+  .user-section__gems{
+    position: relative;
+    width: 76px;
+    height: 31px;
+    margin-top: 18px;
+    margin-right: 20px;
+    color: #ffffff;
+    border-radius: 21px;
+    border: 2px solid #212236;
+    background: linear-gradient(
+      rgba(125, 123, 172, 0), 
+      rgba(50, 49, 69, 0.7)
+    ),  url(../images/gem_background.png) #323145;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .user-section__money:hover{
+    background: linear-gradient(
+      to left,
+      rgba(139, 137, 185, 0), 
+      rgba(50, 49, 69, 1)
+    ),  url(../images/gem_background.png) #323145;
+  }
+
+  .user-section__gems-gem{
+    position: relative;
+    width: 8px;
+    height: 8px;
+    margin-left: 15px;
+    margin-top: 4px;
+    background: linear-gradient(to bottom, #cd6af2 0%, #e48eff 100%);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    transform-style: preserve-3d;
+    border-radius: 5%;
+  }
+  .user-section__gems-gem::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 3px;
+    height: 3px;
+    top: 0px;
+    right: 0px;
+    transform: translateZ(1px);
+    border-radius: 10%;
+    background:linear-gradient(to bottom, #e9aeff 0%, #edbdff 100%);
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+  }
+  .user-section__gems-gem:after{
+    content: "";
+    position: absolute;
+    display: block;
+    border-radius: 5%;
+    background: linear-gradient(to right, #b549b7 0%, #5e229f 100%);
+    width: 12px;
+    height: 12px;
+    z-index: -1;
+    top: -2px;
+    right: -2px;
+    transform: translateZ(-1px);
+    -moz-box-shadow: 0 0 10px #b549b7;
+    -webkit-box-shadow: 0 0 10px #b549b7;
+    box-shadow: 0 0 10px #b549b7;
+  }
+
+  .user-section__gems-count{
+    margin-left: 9px;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    color: #cecbff;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.13px;
+  }
+  .user-section__gems-count:first-letter{
+    color: #ffffff;
+  }
+  .user-section__gems:after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 84px;
+    height: 39px;
+    top: -4px;
+    left: -4px;
+    border-radius: 21px;
+    background: linear-gradient(to right, #d94fc7 0%, #6d30c8 100%);
+    z-index: -1;
+  }
+  .user-section__profile{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #100621;
+    background-image: linear-gradient(to right, #080080 0%, #3c3b53 100%);
+    box-shadow: 0 15px 11px rgba(9, 10, 15, 0.15);
+    border: 2px solid #212236;
+    box-shadow: 0 0 0 2px #9895c6, 0 0 0 2px #9895c6;
+    cursor: pointer;
+    margin-top: 11px;
+    position: relative;
+  }
+  .user-section__profile img{
+    width: 100%;
+    height: 100%;
+  }
+  .profile-picture{
+    width: 100%;
+    height: 100%;
+  }
+  .active-profile { 
+    box-shadow: none; 
+  }
+ 
+  .user-section__profile:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    top: -4px;
+    left: -4px;
+    box-shadow: 0 0 0 2px #9895c6, 0 0 0 2px #9895c6;
+    z-index: -1;
+  }
+
+  .profile-status{
+    position: absolute;
+    display: block;
+    right: -4px;
+    bottom: -4px;
+  }
+  .profile-status:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; 
+    top: -10px;
+    left: -10px;
+    background: linear-gradient(to right, #d94fc7 0%, #ff905a 100%) 47% 0%;
+    z-index: 2;
+  }
+  .profile-status:after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%; 
+    bottom: -3px;
+    right: -3px;
+    background: #242433;
+    z-index: 1;
+  }
+
+  .profile-status__point{
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    border: 2px solid #242333;
+    background: #302f43;
+    z-index: 3;
+  }
+  
+
+  @media (max-width: 1391px){
+    .nav__item{  padding: 0px 30px;  }
+  }
+  @media (max-width: 1217px){
+    .nav__item{  padding: 0px 25px;  }
+    .user-section{  right: 15px;  }
+    .user-section__icons-trophy{  margin-right: 15px;  }
+    .user-section__icons-notification{  margin-right: 21px;  }
+    .user-section__gems{  margin-right: 12px;  }
+    .nav__button{
+      width: 103px;
+      height: 41px;
+    }
+  }
+  @media (max-width: 1171px){
+    .nav__item{  
+      padding: 0px 20px;  
+      font-size: 13px;
+    }
+    .nav__button{
+      width: 100px;
+      height: 40px;
+    }
+  }
+
+  @media (max-width: 977px){
+    .nav__item{ padding: 0px 18px;  }
+    .user-section__icons-trophy{  margin-right: 10px;  }
+    .user-section__icons-notification{  margin-right: 18px;  }
+    .user-section__gems{  margin-right: 11px;  }
+    .nav__button{
+      width: 96px;
+      height: 38px;
+      margin-top: 2px;
+    }
+    .user-section__gems{
+      width: 68px;
+      height: 28px;
+      margin-top: 20px;
+      margin-right: 11px;
+    }
+    .user-section__gems:after{
+      width: 76px;
+      height: 36px;
+      top: -4px;
+      left: -4px;
+    }
+    .user-section__gems-count{
+      margin-left: 7px;
+      font-size: 13px;
+    }
+  }
+
+  @media (max-width: 949px){
+    .nav__item{
+      display:inline ;
+    }
+    .nav__list{ display: block; }
+    .header__nav{ 
+      margin-left: 15px;
+    }
+  }

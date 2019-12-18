@@ -1,0 +1,263 @@
+body {
+    padding-top: 30px;
+    font-family: Lato;
+    margin: 0;
+}
+
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.article {
+    width: 53%;
+    margin: 0 auto;
+}
+
+
+.title {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 28px;
+    letter-spacing: 0.35px;
+}
+
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__button {
+    font-size: 18px;
+    border: 2px solid #261c5f;
+    text-decoration: none;
+    border-radius: 35px;
+    padding: 13px 25px;
+}
+
+.product-container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.product-promo {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    margin-top: 7%;
+
+}
+
+.product__arrow {
+    position: absolute;
+    margin-left: 9%;
+}
+
+.product-promo__text {
+    padding-left: 20px;
+    max-width: 270px;
+}
+
+.product__image {
+    width: 300x;
+    height: 152px;  
+}
+
+
+.product__arrow_img {
+    width: 50px;
+    height: 31px;
+}
+
+
+ .middle {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.quote {
+    margin-top: 7%;
+    color: #fff;
+    background-image: linear-gradient(to right, #19256b 0%, #1a256b 32%, #da5716 73%, #da5413 100%);
+    background-size: 100%;
+}
+
+.douglas {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.quotes__text-quote {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.quotes__text-author {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.35px;
+}
+
+.articles{
+
+margin-top: 28px;
+margin-bottom: 44px;
+font-size: 36px;
+color: #191919;
+line-height: 0.052;   
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .article{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .product__img {
+        max-width: 90%;
+        height: 152px;
+        padding: 5px;
+    }
+
+    .product__arrow {
+        position: absolute;
+        margin-left: 4%;
+    }
+
+    .product__arrow_img {
+
+        width: 28px;
+        height: 11px;
+    }
+
+    .middle {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+ .articles {
+    display: flex;
+    flex-direction: column
+}
+.articles h1 {
+    font-size: 26px;
+    margin-top: 147px;
+    margin-bottom: 107px;
+    text-align: center;
+}
+ .articles .article {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 135px;
+}
+ .articles .article .text h2{
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 44px;
+}
+ .articles .article .text p{
+    font-size: 14px;
+    line-height: 2;
+}
+ .articles .articlefirst .text{
+    margin-right: 50px;
+}
+
+.articles .articlesecond .text{
+    margin-right: 50px;
+} 
+.articles .articlethird .text{
+    margin-right: 50px;
+}
+
+
+
+@media only screen and (max-width: 320px) {
+    .header__logo {
+        display: none;
+    }
+
+    .header__container {
+        justify-content: center;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .product-gallery {
+        flex-direction: column;
+    }
+
+    .product-gallery__text {
+        padding-top: 10px;
+        padding-bottom: 25px;
+    }
+
+    .product__img {
+        height: 195px;
+    }
+
+    .product__arrow {
+        transform: rotate(90deg) translateX(140px) translateY(85px);
+
+    }
+
+    .product__arrow_img {
+        width: 28px;
+        height: 11px;
+    }
+
+    .quote {
+        min-height: 290px;
+        display: flex;
+        align-items: center;
+    }
+
+    .quotes__text-quote {
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+    }
+
+    .quotes__text-author {
+        padding: 5px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.3px;
+    }
+}

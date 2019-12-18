@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test Page</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" href="./src/styles/fonts.css">
+	<link rel="stylesheet" href="./src/styles/main.css">
+	
+	<script src="./src/scripts/jquery-3.4.1.min.js"></script>
+	<script src="./src/scripts/navbar.js"></script>
+</head>
+<body>
+	<header class="header">
+		<div id="hamburger" class="header-navbar__hamburger"><i class="fas fa-bars"></i></div>
+		<div class="header-navbar">
+			<ul class="header-navbar__list">
+			<li><a href="#" class="header-navbar__item">Home</a></li>
+			<li><a href="#" class="header-navbar__item">Marketplace</a></li>
+			<li><a href="#" class="header-navbar__item">Booster Packs</a></li>
+			<li><button class="play">Play</button></li>
+		</ul>
+		</div>
+		<div class="header-userinfo">
+			<a href="#" class="header-userinfo__trophy"><i class="fas fa-trophy"></i></a>
+			<a href="#" class="header-userinfo__bell"><i class="fas fa-bell"></i></a>
+			<a href="#" class="header-userinfo__gem"><img src="./src/images/gem.png" alt="gem" >142</a>
+			<a href="#" class="header-userinfo__icon"><img src="./src/images/user-icon.png" alt="Profile Icon"></a>
+		</div>
+	</header>
+
+	<section class="main">
+		<div class="main-page">
+			<div class="main-page__back">
+				<a href="#"><i class="fas fa-chevron-left"></i>Back</a>
+			</div>
+			<div class="main-page__more">
+				<a href="#" class="main-page__more_prev"><i class="fas fa-chevron-left"></i>See Previous</a>
+				<a href="#" class="main-page__more_next">See Next<i class="fas fa-chevron-right"></i></a>
+			</div>
+
+			<div class="main-page__adv">
+				<div class="main-article">
+					<div>
+						<img class="main-article__img" src="./src/images/hero.png" alt="img">
+					</div>
+					<div>
+						<h2 class="main-article__title">The International 2018 Collector</h2>
+						<p class="main-article__date">July 24, 2018</p>
+						<p class="main-article__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+							It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
+						<br/><br/>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+					</div>
+				</div>
+
+				<div class="main-article__social">
+					<div class="main-article__count">
+						<a class="main-article__likes"><i class="fas fa-thumbs-up"></i>345</a>
+						<p class="main-article__views"><i class="fas fa-eye"></i>7.649</p>
+					</div>
+					<div class="main-article__share">
+						<a href="#"><i class="fas fa-share-alt"></i></a>
+						<a href="#"><i class="fab fa-facebook-square"></i></a>
+						<a href="#"><i class="fab fa-twitter-square"></i></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="main-comment">
+				<div class="comment-bar">
+					<div class="comment-bar__count">
+						<i class="fas fa-comment-alt"></i>
+						<p class="comment-bar__title">Comments:<span class="comment-bar__number"></span> 48</span>
+						</p>
+					</div>
+					<div class="comment-bar__switch"><a href="#">Popular</a><a href="#">Recent</a></div>
+				</div>
+				<div class="comment-body">
+					<div class="comment-body__enter">
+						<p><input type="text" class="comment-body__input" placeholder="Type comment here.."></p>
+					</div>
+					<div class="comment-body__out">
+						<div class="comment-body__userphoto"><img src="./src/images/user-photo.png" alt="photo"></div>
+						<div class="comment-body__display">
+							<div class="comment-body__title">Svetlakov</div>
+							<div class="comment-body__date">22 May</div>
+							<div class="comment-body__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</div>
+						</div>
+					</div>
+					<div class="comment-body__out">
+						<div class="comment-body__userphoto"><img src="./src/images/user-photo.png" alt="photo"></div>
+						<div class="comment-body__dispay">
+							<div class="comment-body__title">Svetlakov</div>
+							<div class="comment-body__date">22 May</div>
+							<div class="comment-body__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="main-related">
+			<h3 class="main-related__title">Related News</h3>
+			<div class="related-news">
+				<div class="related-news__about">
+					<a href="#"><h4 class="related-news__title">Welcome to Nethernite</h4></a>
+					<p class="related-news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+				</div>
+			</div>
+			<div class="related-news">
+					<div class="related-news__about">
+						<a href="#"><h4 class="related-news__title">Welcome to Nethernite</h4></a>
+						<p class="related-news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+					</div>
+				</div>
+				<div class="related-news">
+						<div class="related-news__about">
+							<a href="#"><h4 class="related-news__title">Welcome to Nethernite</h4></a>
+							<p class="related-news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+						</div>
+					</div>
+		</div>
+	</section>
+	
+</body>
+</html>
